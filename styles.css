@@ -3,3 +3,37 @@
   margin: 0;
   box-sizing: border-box;
 }
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+#all-players-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.player {
+  text-align: center;
+  max-width: 250px; 
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 10px;
+}
+
+.player img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px; 
+}
+
+
+
+
+
